@@ -1,6 +1,7 @@
 {
   "name": "crypo-tracker",
   "version": "0.1.0",
+  "homepage": "https://cryptohover.netlify.app/",
   "private": true,
   "repository": {
     "type": "git",
