@@ -28,7 +28,6 @@ const coinsReducer = createSlice({
     },
     [updateCoinsData.fulfilled](state, action) {
       console.log("data fetched");
-      console.log(action.payload);
       state.coinData = action.payload
       state.isLoading = false
       return state
